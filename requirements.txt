@@ -7,5 +7,6 @@ phonenumbers~=9.0.10
 packaging
 django-sesame~=3.2.3
 
-# Local editable fork of openwisp-utils (for development)
--e ../openwisp-utils
+# Editable GitHub fork of openwisp-utils (with rest and celery extras)
+-e git+https://github.com/sagar-nexapp/openwisp-utils.git@main#egg=openwisp_utils[rest,celery]
+
