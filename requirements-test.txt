@@ -1,3 +1,7 @@
-openwisp-utils[qa,selenium] @ https://github.com/openwisp/openwisp-utils/tarball/1.2
+# Install test dependencies
 django-redis~=6.0.0
 django-reversion~=5.1.0
+
+# Editable fork from GitHub
+-e git+https://github.com/sagar-nexapp/openwisp-utils.git@main#egg=openwisp_utils[qa,selenium]
+
